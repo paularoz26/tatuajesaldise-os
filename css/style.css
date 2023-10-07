@@ -1,0 +1,24 @@
+header {
+  background-image: url("../assets/De-que-esta-hecha-la-tinta-para-tatuajes-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-style: double;
+  color: red;
+  display: flex;
+  padding: 20px; }
+
+.pie-pagina {
+  width: 100%;
+  background-color: black;
+  border-style: double;
+  color: red;
+  text-transform: capitalize;
+  text-align: center; }
+  .pie-pagina .pie-pagina h3 {
+    color: white;
+    text-transform: capitalize;
+    text-align: center; }
+    .pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+      justify-content: center;
+      gap: 15px; }
