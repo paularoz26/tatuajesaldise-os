@@ -1,0 +1,130 @@
+@media(max-width:768px)
+{.grids{
+    @include flex(column, wrap,center,10px);
+    }
+    nav{ul{ display: flex;
+        gap:20px;
+         justify-content:center;
+         list-style: none;
+         flex-direction: column;
+       li{ list-style:none;
+        flex-direction: column;
+         &:hover{transform:scale(1.1);}
+       a{color:$color-secundaria;
+         text-decoration: none;
+         text-transform: capitalize;
+       font-size:20px;
+       background-color:$color-principal;
+     box-shadow: 3px 3px 3px 3px $bg-universidad;
+     a:hover{transform: scale(1.1);}
+     .buscador{position:absolute;
+        right:80px;
+      top:8px;}
+      .buscar{margin-bottom:5px;
+        position: absolute;
+        text-transform: capitalize;
+        
+      right:40px;
+      top:8px;}
+      .goo-maps{padding:30px;
+        justify-content: center;
+        align-items: center;
+        width:300px;
+        height:300px;
+       
+
+        iframe{display: flex;
+        border-radius:20px;
+        border-style: double;
+        width:300px;
+        height:300px;
+        border-color:$bg-secundaria;
+        margin:0 auto;
+        padding:10px;
+        box-shadow:5px 5px 5px 5px $color-principal;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width:100%;
+        overflow: hidden;
+        h1{
+            align-items:center;
+        color:$color-principal;
+        text-align:center;
+        background-color:$color-terciario;
+        border-radius:20px;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        .container-card{
+            .contacto-grid{background-color: blueviolet;
+                border-style: double;
+                color:red;
+                color:white;
+            font-size:18px;
+            border-radius:14px;
+            padding: 25px;
+            display:grid;
+            gap:25px;
+          
+            .section-grids{width:100%;
+              display:grid;
+              width:700px;
+             height:700px;
+             flex-wrap: nowrap;
+    
+            
+             flex-direction: row;
+             flex-wrap: wrap;
+             background-color:$bg-secundaria;
+             grid-template-columns:200px 200px 200px 200px;
+             grid-template-rows:150px 150px 150px;
+             grid-template-areas:
+             "section2 section1 section3 section3"
+             "section2 section1 section3 section3"
+             "section4 section1 section5 section5"
+             ;
+             justify-content: center;
+             align-content:center;
+          justify-content: center;
+          align-items: center;
+          row-gap:20px;
+          column-gap:20px;
+          }
+             
+             .section1{background-color:none;  
+             grid-area:section1;
+             .section1 img{flex-wrap: nowrap;
+              width:100%;
+              height:100%;
+              object-fit: cover;
+              &:hover{transform:scale(1.1);
+            
+             .section2{background-color:none;
+             grid-area:section2;
+             .section2 img{flex-wrap: nowrap;
+              width:100%;
+              height:100%;
+              object-fit: cover;
+              &:hover{transform:scale(1.1);
+               
+             .section3{background-color:none;
+             grid-area:section3;
+             .section3 img{flex-wrap: nowrap;
+              width:100%;
+              height:100%;
+              object-fit: cover; 
+          
+             .section4{background-color:none;
+             grid-area:section4;
+             .section4 img{flex-wrap: nowrap;
+              width:100%;
+              height:100%;
+              object-fit: cover;}}
+            
+            
+             .section5{background-color:none;
+             grid-area:section5;
+             .section1 img{
+              width:100%;
+              height:100%;
+              object-fit: cover;}}}}}}}}}}}}}}}}}}}}

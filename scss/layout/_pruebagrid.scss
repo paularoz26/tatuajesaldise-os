@@ -1,0 +1,45 @@
+.grid-uno{ justify-content:space-evenly;
+    justify-content: space-between;
+    background-color:rgb(231, 227, 227);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin:0 6px;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:20px;
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: space-between;
+    background-color:rgb(231, 227, 227);
+
+  
+    }
+.grid-dos{display:flex;
+    @extend .grid-uno;
+    background-color:$color-secundaria;
+    justify-content:space-evenly;
+    justify-content: space-between;
+   flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin:0 6px;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:20px;
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: space-between;
+    background-color:rgb(231, 227, 227);
+
+
+
+
+
+}
+
+.grid-tres{
+    @extend .grid-dos;
+    color:$color-secundaria;
+
+}

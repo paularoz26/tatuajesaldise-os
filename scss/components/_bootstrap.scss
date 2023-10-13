@@ -1,0 +1,23 @@
+.container{border-radius:20px;
+  border-style: double;
+  border-color:$bg-secundaria;
+  margin:0 auto;
+  padding:10px;
+  box-shadow:5px 5px 5px 5px $color-principal;
+
+border-color:$bg-secundaria;
+margin:0 auto;
+padding:10px;
+  img{float: left;
+  margin-right:20px;
+    background-color:rgb(202, 196, 196);
+    overflow:hidden;
+    h1{color:$color-principal;
+      font-size:80px;
+   text-align: center;
+   text-transform: capitalize;}
+   p{color:$color-principal;
+  text-transform: capitalize;
+  font-size:30px;
+  color:$color-terciario;
+  }}}

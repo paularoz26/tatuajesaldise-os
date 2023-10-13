@@ -1,0 +1,15 @@
+.section-uno{display:grid;
+justify-content: center;
+align-items: center;
+color:$bg-principal;
+font-size:20px;
+text-align: center;
+text-decoration: none;}
+
+.section-dos{
+    @extend.section-uno;
+    background-color:$color-principal;
+    text-align:right;
+}
+.section-tres{@extend .section-dos;
+align-items: flex-start; }

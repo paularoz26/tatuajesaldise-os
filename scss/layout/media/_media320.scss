@@ -1,0 +1,30 @@
+@media(max-width:768px)
+{.grids{
+    @include flex(column, wrap,center,10px);
+    }
+    nav{ul{ display: flex;
+        gap:20px;
+         justify-content:center;
+         list-style: none;
+         flex-direction: column;
+       li{ list-style:none;
+        flex-direction: column;
+         &:hover{transform:scale(1.1);}
+       a{color:$color-secundaria;
+         text-decoration: none;
+         text-transform: capitalize;
+       font-size:20px;
+       background-color:$color-principal;
+     box-shadow: 2px 2px 2px 2px $bg-terciario;
+     a:hover{transform: scale(1.1);}
+     .buscador{position:absolute;
+        right:80px;
+      top:8px;
+    margin:0 auto;}
+      .buscar{margin-bottom:5px;
+        position: absolute;
+        text-transform: capitalize;
+        right:40px;
+      top:8px;}}
+
+       }}}}

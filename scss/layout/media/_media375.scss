@@ -1,0 +1,65 @@
+@media(max-width:768px)
+{.grids{
+    @include flex(column, wrap,center,10px);
+    }
+    nav{ul{ display: flex;
+        gap:20px;
+         justify-content:center;
+         list-style: none;
+         flex-direction: column;
+       li{ list-style:none;
+        flex-direction: column;
+         &:hover{transform:scale(1.1);}
+       a{color:$color-secundaria;
+         text-decoration: none;
+         text-transform: capitalize;
+       font-size:20px;
+       background-color:$color-principal;
+     box-shadow: 2px 2px 2px 2px $bg-terciario;
+     a:hover{transform: scale(1.1);}
+     .buscador{position:absolute;
+        right:80px;
+      top:8px;}
+      .buscar{margin-bottom:5px;
+        position: absolute;
+        text-transform: capitalize;
+        
+      right:40px;
+      top:8px;}
+      .goo-maps{padding:30px;
+        justify-content: center;
+        align-items: center;
+
+        iframe{display: flex;
+        border-radius:20px;
+        border-style: double;
+        width:300px;
+        height:300px;
+        border-color:$bg-secundaria;
+        margin:0 auto;
+        padding:10px;
+        box-shadow:5px 5px 5px 5px $color-principal;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        }
+        h1{
+            align-items:center;
+        color:$color-principal;
+        text-align:center;
+        background-color:$color-secundaria;
+        border-radius:20px;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        
+        
+        }
+        }
+    
+    
+    
+    
+    }
+       }}}}

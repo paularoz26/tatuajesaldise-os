@@ -1,0 +1,22 @@
+.goo-maps{padding:30px;
+   
+    iframe{display: flex;
+    border-radius:20px;
+    border-style: double;
+    width:600px;
+    height:600px;
+    border-color:$bg-secundaria;
+    margin:0 auto;
+    padding:10px;
+    box-shadow:5px 5px 5px 5px $color-principal;
+    
+    }
+    h1{
+        align-items:center;
+    color:$color-principal;
+    text-align:center;
+    background-color:$color-terciario;
+    border-radius:20px;
+    
+    }
+    }
