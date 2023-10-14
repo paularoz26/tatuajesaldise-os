@@ -9,13 +9,20 @@
     font-size:20px;
     border-radius:14px;
     padding:70px;
-    margin:0 auto;
-    box-sizing: border-box;
-    gap:25px;
-    justify-content: center;
-    .contac-grupo{text-transform: capitalize;
-    color:$color-principal;
-    font-size:30px;
+    margin: 0 auto;
+box-sizing:border-box;
+}.grupo-contactos h4{border-style: double; text-align: center; border-radius:20px; color:orangered;background-color: black;}
+
+.grupo-contactos h2{font-size: 35px;
+        font-weight:500;
+    text-align:left;
+    text-transform: uppercase;
+    color:black;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-style: italic;} .grupo-contactos h2:active{color: white; box-shadow:5px 5px 5px black;}
+.grupo-contactos h3{font-family:sans-serif; color:red;}
+ 
+
     }
     
     .contac-grupo button{ width:100%;
@@ -28,4 +35,4 @@
     border:1px solid var($color-terciario);
     cursor:pointer;
     text-transform: capitalize;
-    }}}
+    }

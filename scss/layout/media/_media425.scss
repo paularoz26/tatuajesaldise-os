@@ -24,7 +24,7 @@
         position: absolute;
         text-transform: capitalize;
         
-      right:40px;
+      right:80px;
       top:8px;}
       .goo-maps{padding:30px;
         justify-content: center;
@@ -56,10 +56,10 @@
         text-transform: capitalize;
         text-transform: uppercase;
         .container-card{
-            .contacto-grid{background-color: blueviolet;
+            .contacto-grid{background-color:$color-terciario;
                 border-style: double;
-                color:red;
-                color:white;
+                color:$bg-secundaria;
+                color:$color-secundaria;
             font-size:18px;
             border-radius:14px;
             padding: 25px;
@@ -127,4 +127,164 @@
              .section1 img{
               width:100%;
               height:100%;
-              object-fit: cover;}}}}}}}}}}}}}}}}}}}}
+              object-fit: cover;
+            
+            .contac-detalle h3{color:$color-principal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: grid;
+            .grupo-contactos h3{margin:0;
+              padding:0;}
+              .grupo-contacto p{margin:0; padding:0;}
+              .grupo-contactos h2{font-size: 30px;
+                  font-weight:500;
+              text-align:center;
+              text-transform:capitalize;
+              font-weight:normal;
+              color:$bg-secundaria;
+              } 
+              
+              .grupo-contactos h3{ display: grid;
+              gap:20px;}
+              
+              .grupos-contactos p{display: grid;
+              gap:20px;}
+              
+              .contac-label{text-transform: uppercase;
+              font-weight:500;
+              color:$color-principal;
+              .grupo-contactos label:hover{color:$bg-secundaria;
+                box-shadow:4px 4px 4px $color-principal;
+                text-decoration:underline;
+                }
+                
+                .grupo-contactos p:hover{color:$color-principal; }
+                
+                .contac-grupo{display:grid;
+                gap:3px;}
+                .contac-grupo label{text-transform: capitalize;}
+                
+                .input {display: grid;
+                gap:3px;}
+                
+                .textarea{display:grid;
+                gap:3px;}
+                
+                .contact-form input{ border-radius: 7px;
+                border:none;
+                height:30px;
+                padding: 5px 10px;
+                }
+                
+                .contact-form textarea{ border-radius: 7px;
+                border:none;
+                height: 30px;
+                padding:5px 10px;}
+                
+                .contact-form textarea{height:auto;
+                resize:vertical;
+                }
+                
+                .grupo-contactos h3{ text-transform:capitalize;}
+                
+                .grupo-contactos p{text-transform:capitalize;}
+                 .grupo-contactos h4{text-transform: capitalize;
+                border-style:groove;
+                color:$color-principal;
+                border-radius: 60px;
+                text-align: center;
+                box-shadow:4px 4px 4px $color-secundaria;
+                background-color:$color-principal;}
+                
+                .contac-grupo button{ width:100%;
+                height:50px;
+                font-size: bold;
+                font-size:30px;
+                background-color:$color-principal;
+                color:$bg-secundaria;
+                border-radius:7px;
+                border:1px solid var($bg-secundaria);
+                cursor:pointer;
+                text-transform: capitalize;
+                }
+                
+                .contac-grupo button:hover{ box-shadow:4px 4px 4px $color-secundaria;}
+                .grupo-contactos h4{text-transform: capitalize;
+                    border-style:groove;
+                    color:$color-terciario;
+                    border-radius: 60px;
+                    align-items: center;
+                    box-shadow:4px 4px 4px $color-secundaria;
+                    background-color:$color-principal;
+                    font-size:20px;}
+
+                    .grupo-contactos h3{margin:0;
+                      padding:0;}
+                      .grupo-contacto p{margin:0; padding:0;}
+                      .grupo-contactos h2{font-size: 30px;
+                          font-weight:500;
+                      text-align:center;
+                      text-transform:capitalize;
+                      font-weight:normal;
+                      color:black;
+                      } 
+                      .grupo-contactos h3{ display: grid;
+                      gap:20px;}
+                      
+                      .grupos-contactos p{display: grid;
+                      gap:20px;}
+                      
+                      .contac-label{text-transform: uppercase;
+                      font-weight:500;
+                      color:black;
+                      }
+                      
+                      .grupo-contactos label:hover{color:$bg-secundaria;
+                      box-shadow:4px 4px 4px $color-principal;
+                      text-decoration:underline;
+                      }
+                      
+                      .grupo-contactos p:hover{color:$color-principal; }
+                      
+                      .contac-grupo{display:grid;
+                      gap:3px;}
+                      .contac-grupo label{text-transform: capitalize;}
+                      
+                      .input {display: grid;
+                      gap:3px;}
+                      
+                      .textarea{display:grid;
+                      gap:3px;}
+                      
+                      .contact-form input{ border-radius: 7px;
+                      border:none;
+                      height:30px;
+                      padding: 5px 10px;
+                      }
+                      
+                      .contact-form textarea{ border-radius: 7px;
+                      border:none;
+                      height: 30px;
+                      padding:5px 10px;}
+                      
+                      .contact-form textarea{height:auto;
+                      resize:vertical;
+                      }
+                      
+                      .grupo-contactos h3{ text-transform:capitalize;}
+                      
+                      .grupo-contactos p{text-transform:capitalize;}
+                       
+                }
+
+
+
+
+
+              }
+
+
+            }
+            
+            
+            
+            }}}}}}}}}}}}}}}}}}}
