@@ -35,14 +35,20 @@ header {
 header .buscador {
   position: absolute;
   right: 80px;
-  top: 8px;
+  top: 10px;
 }
 header .buscar {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   position: absolute;
   text-transform: capitalize;
-  right: 40px;
-  top: 8px;
+  right: 80px;
+  top: 10px;
+}
+header .buscar input {
+  font-size: 10px;
+}
+header .buscador button {
+  font-size: 10px;
 }
 
 .goo-maps {
@@ -139,9 +145,9 @@ nav ul li a a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: black;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 150px 150px 150px;
-  grid-template-areas: "section2 section1 section3 section3" "section2 section1 section3 section3" "section4 section1 section5 section5";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "section2 section1 section3 section3" "section2 section1 section3 section3" "section4 section4 section5 section5";
   justify-content: center;
   align-content: center;
   justify-content: center;

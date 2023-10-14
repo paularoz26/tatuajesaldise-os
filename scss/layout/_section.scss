@@ -6,12 +6,12 @@
    flex-wrap: wrap;
    background-color:$color-principal;
    @extend .section-uno;
-   grid-template-columns:200px 200px 200px 200px;
-   grid-template-rows:150px 150px 150px;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   grid-template-rows:1fr 1fr 1fr;
    grid-template-areas:
+   "section2 section1 section3 section3"  
    "section2 section1 section3 section3"
-   "section2 section1 section3 section3"
-   "section4 section1 section5 section5"
+   "section4 section4 section5 section5"
    ;
    justify-content: center;
    align-content:center;
