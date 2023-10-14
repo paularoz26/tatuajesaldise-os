@@ -96,7 +96,7 @@ nav ul li a a:hover {
   border-style: double;
   font-size: 20px;
   border-radius: 14px;
-  padding: 70px;
+  padding:0px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -253,7 +253,8 @@ img {
   border-style: double;
   font-size: 20px;
   border-radius: 14px;
-  padding: 70px;
+  padding: 0px;
+  align-items: center;
   margin: 0 auto;
   box-sizing: border-box;
   gap: 25px;
@@ -361,7 +362,6 @@ img {
   text-transform: capitalize;
   border-style: groove;
   color: black;
-  border-radius: 20px;
   text-align: center;
   box-shadow: 4px 4px 4px white;
   background-color: rgb(129, 9, 129);
@@ -421,6 +421,10 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: black;
+}
+.container-card .container-card {
+  width: 100%;
+  height: 100%;
 }
 
 .section-uno, .section-dos, .section-tres, .section-grids {
@@ -515,7 +519,7 @@ img {
   display: grid;
   gap: 25px;
   background-color: rgb(92, 92, 92);
-  padding: 70px;
+  padding:0;
 }
 .container-card h2 {
   margin-bottom: 8px;
@@ -587,6 +591,8 @@ img {
   border: 1px solid var(red);
   cursor: pointer;
   text-transform: capitalize;
+  margin-bottom:15px;
+
 }
 
 .container-carrd {
@@ -705,18 +711,29 @@ img:hover {
     text-transform: capitalize;
     text-transform: uppercase;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .contacto-grid {
-    background-color: blueviolet;
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .contacto-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(129, 9, 129);
     border-style: double;
     color: red;
     color: white;
     font-size: 18px;
     border-radius: 14px;
-    padding: 25px;
+    padding: 0;
     display: grid;
     gap: 25px;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids {
     width: 100%;
     display: grid;
     width: 700px;
@@ -734,53 +751,53 @@ img:hover {
     row-gap: 20px;
     column-gap: 20px;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 {
     background-color: none;
     grid-area: section1;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover {
     transform: scale(1.1);
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 {
     background-color: none;
     grid-area: section2;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover {
     transform: scale(1.1);
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 {
     background-color: none;
     grid-area: section3;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 {
     background-color: none;
     grid-area: section4;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 .section4 img {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 .section4 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 {
     background-color: none;
     grid-area: section5;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .container-card .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -865,19 +882,31 @@ img:hover {
     border-radius: 20px;
     text-transform: capitalize;
     text-transform: uppercase;
-  }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid {
     background-color: rgb(129, 9, 129);
     border-style: double;
     color: red;
     color: white;
     font-size: 18px;
     border-radius: 14px;
-    padding: 25px;
+    margin: 0;
+    padding: 0;
     display: grid;
     gap: 25px;
+    justify-content: center;
+    align-items: center;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section-grids {
+  nav ul li a .goo-maps iframe h1 .container-card {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 25px;
+    padding: 0;
+  }
+  nav ul li a .goo-maps iframe h1 .contacto-grid {
+    width: 100%;
+    height: 100%;
+  }
+  nav ul li a .goo-maps iframe h1 .section-grids {
     width: 100%;
     display: grid;
     width: 700px;
@@ -896,75 +925,75 @@ img:hover {
     row-gap: 20px;
     column-gap: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 {
+  nav ul li a .goo-maps iframe h1 .section1 {
     background-color: none;
     grid-area: section1;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img {
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover {
     transform: scale(1.1);
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 {
     background-color: none;
     grid-area: section2;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img {
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover {
     transform: scale(1.1);
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 {
     background-color: none;
     grid-area: section3;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img {
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 {
     background-color: none;
     grid-area: section4;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 .section4 img {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 .section4 img {
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 {
     background-color: none;
     grid-area: section5;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h3 {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contacto p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contacto p {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h2 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h2 {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -972,65 +1001,65 @@ img:hover {
     font-weight: normal;
     color: red;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupo-contactos h3 {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupos-contactos p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .grupos-contactos p {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label {
     text-transform: uppercase;
     font-weight: 500;
     color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos label:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos label:hover {
     color: red;
     box-shadow: 4px 4px 4px black;
     text-decoration: underline;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p:hover {
     color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo label {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo label {
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .input {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .input {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .textarea {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form input {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form input {
     border-radius: 7px;
     border: none;
     height: 30px;
     padding: 5px 10px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
     border-radius: 7px;
     border: none;
     height: 30px;
     padding: 5px 10px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
     height: auto;
     resize: vertical;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p {
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h4 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h4 {
     text-transform: capitalize;
     border-style: groove;
     color: black;
@@ -1039,7 +1068,7 @@ img:hover {
     box-shadow: 4px 4px 4px white;
     background-color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo button {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo button {
     width: 100%;
     height: 50px;
     font-size: bold;
@@ -1051,10 +1080,10 @@ img:hover {
     cursor: pointer;
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo button:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo button:hover {
     box-shadow: 4px 4px 4px white;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h4 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h4 {
     text-transform: capitalize;
     border-style: groove;
     color: rgb(129, 9, 129);
@@ -1064,15 +1093,15 @@ img:hover {
     background-color: black;
     font-size: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contacto p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contacto p {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h2 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h2 {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -1080,62 +1109,62 @@ img:hover {
     font-weight: normal;
     color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupos-contactos p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupos-contactos p {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-label {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-label {
     text-transform: uppercase;
     font-weight: 500;
     color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos label:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos label:hover {
     color: red;
     box-shadow: 4px 4px 4px black;
     text-decoration: underline;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p:hover {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p:hover {
     color: black;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo label {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contac-grupo label {
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .input {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .input {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .textarea {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form input {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form input {
     border-radius: 7px;
     border: none;
     height: 30px;
     padding: 5px 10px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
     border-radius: 7px;
     border: none;
     height: 30px;
     padding: 5px 10px;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .contact-form textarea {
     height: auto;
     resize: vertical;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos h3 {
     text-transform: capitalize;
   }
-  nav ul li a .goo-maps iframe h1 .container-card .contacto-grid .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p {
+  nav ul li a .goo-maps iframe h1 .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img .contac-detalle h3 .contac-label .grupo-contactos p {
     text-transform: capitalize;
   }
 }
@@ -1333,6 +1362,99 @@ img:hover {
   nav ul li a .goo-maps h1 .contac-grupo button:hover {
     box-shadow: 4px 4px 4px white;
   }
+  nav ul li a .goo-maps h1 .container-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .container-card {
+    width: 100%;
+    height: 100%;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid {
+    display: grid;
+    background-color: rgb(92, 92, 92);
+    border-style: double;
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 0px;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 25px;
+    justify-content: center;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids {
+    width: 100%;
+    display: grid;
+    width: 700px;
+    height: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: red;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: "section2 section1 section3 section3" "section2 section1 section3 section3" "section4 section4 section5 section5";
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 {
+    background-color: none;
+    grid-area: section1;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover {
+    transform: scale(1.1);
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 {
+    background-color: none;
+    grid-area: section2;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover {
+    transform: scale(1.1);
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 {
+    background-color: none;
+    grid-area: section3;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 {
+    background-color: none;
+    grid-area: section4;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section4 .section4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 {
+    background-color: none;
+    grid-area: section5;
+  }
+  nav ul li a .goo-maps h1 .contacto-grid .contacto-grid .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 768px) {
   .grids {
@@ -1382,6 +1504,122 @@ img:hover {
     text-transform: capitalize;
     right: 40px;
     top: 8px;
+  }
+  nav ul li a .buscar .grupo-contactos h3 {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li a .buscar .grupo-contacto p {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li a .buscar .grupo-contactos h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: black;
+  }
+  nav ul li a .buscar .grupo-contactos h3 {
+    display: grid;
+    gap: 20px;
+  }
+  nav ul li a .buscar .grupos-contactos p {
+    display: grid;
+    gap: 20px;
+  }
+  nav ul li a .buscar .contac-label {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+  }
+  nav ul li a .buscar .grupo-contactos label:hover {
+    color: red;
+    box-shadow: 4px 4px 4px black;
+    text-decoration: underline;
+  }
+  nav ul li a .buscar .grupo-contactos p:hover {
+    color: black;
+  }
+  nav ul li a .buscar .contac-grupo {
+    display: grid;
+    gap: 3px;
+  }
+  nav ul li a .buscar .contac-grupo label {
+    text-transform: capitalize;
+  }
+  nav ul li a .buscar .input {
+    display: grid;
+    gap: 3px;
+  }
+  nav ul li a .buscar .textarea {
+    display: grid;
+    gap: 3px;
+  }
+  nav ul li a .buscar .contact-form input {
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+  }
+  nav ul li a .buscar .contact-form textarea {
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+  }
+  nav ul li a .buscar .contact-form textarea {
+    height: auto;
+    resize: vertical;
+  }
+  nav ul li a .buscar .grupo-contactos h3 {
+    text-transform: capitalize;
+  }
+  nav ul li a .buscar .grupo-contactos p {
+    text-transform: capitalize;
+  }
+  nav ul li a .buscar .grupo-contactos h4 {
+    text-transform: capitalize;
+    border-style: groove;
+    color: orangered;
+    border-radius: 60px;
+    align-items: center;
+    box-shadow: 4px 4px 4px white;
+    background-color: black;
+    font-size: 20px;
+  }
+  nav ul li a .buscar .contac-grupo label:hover {
+    color: black;
+  }
+  nav ul li a .buscar .contac-grupo input:hover {
+    border-color: orangered;
+    border-style: double;
+  }
+  nav ul li a .buscar .contac-grupo button {
+    width: 100%;
+    height: 50px;
+    font-size: bold;
+    font-size: 30px;
+    background-color: black;
+    color: red;
+    border-radius: 7px;
+    border: 1px solid var(red);
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  nav ul li a .buscar .grupo-contactos h3 {
+    color: black;
+  }
+  nav ul li a .buscar .contac-detalle h3 {
+    color: black;
+  }
+  nav ul li a .buscar .grupo-contactos h3:hover {
+    color: orangered;
+    background-color: white;
+  }
+  nav ul li a .buscar .contac-grupo button:hover {
+    box-shadow: 4px 4px 4px white;
   }
 }
 

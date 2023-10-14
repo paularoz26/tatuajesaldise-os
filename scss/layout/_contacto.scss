@@ -28,7 +28,11 @@
       border-style: double;
     font-size:20px;
     border-radius:14px;
-    padding:70px;
+    padding:0px;
+    align-items: center;
+
+
+
     margin:0 auto;
     box-sizing: border-box;
     gap:25px;
@@ -117,10 +121,8 @@
          .grupo-contactos h4{text-transform: capitalize;
         border-style:groove;
         color:$color-principal;
-        border-radius:20px;
-    
         text-align: center;
-        box-shadow:4px 4px 4px white;
+        box-shadow:4px 4px 4px $color-secundaria;
         background-color:$color-terciario;}
         
 

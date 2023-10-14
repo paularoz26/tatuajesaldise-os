@@ -73,14 +73,24 @@
         text-transform: capitalize;
         text-transform: uppercase;
         
-        .container-card{
-        .contacto-grid{background-color: blueviolet;
+        .container-card{width: 100%;
+          height:100%;
+        display: flex;
+      align-items: center;
+    justify-content: center;
+  padding:0;}
+        .contacto-grid{display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          
+          background-color:$color-terciario;
             border-style: double;
             color:red;
             color:white;
         font-size:18px;
         border-radius:14px;
-        padding: 25px;
+        padding:0;
         display:grid;
         gap:25px;}
       
@@ -147,4 +157,4 @@
          
         
     
-        }}}}}}}}}}}}}}}}}}}}}
+        }}}}}}}}}}}}}}}}}}}}
