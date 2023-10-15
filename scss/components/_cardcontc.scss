@@ -2,13 +2,15 @@
     gap:25px;
   background-color:$bg-principal;
   padding:0;
+  margin-top:9px;
+  margin-bottom: 9px;
   h2{margin-bottom:8px;
     font-size:50px;
     padding:0;
   color:$color-principal;
   text-align: center;
   text-transform: capitalize;
-  box-shadow: 4px 4px 4px 5px $bg-secundaria;
+  box-shadow: 2px 2px 2px 2px $bg-secundaria;
    }.contact-form input{ border-radius: 7px;
     border:none;
     height:30px;

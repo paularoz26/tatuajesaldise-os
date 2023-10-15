@@ -1,6 +1,8 @@
 .grids{
  @include flex(wrap,row,center,20px);
   margin:0 20px;
+  margin-top:10px;
+  margin-bottom:10px;
     
     .contacto-grid{
       display: grid;
@@ -11,6 +13,8 @@
     padding:0;
     margin: 0 auto;
 box-sizing:border-box;
+margin-bottom:10px;
+margin-top:10px;
 }.grupo-contactos h4{border-style: double; text-align: center; border-radius:20px; color: $color-universidad;background-color: $color-principal;}
 
 .grupo-contactos h2{font-size: 35px;
@@ -19,7 +23,8 @@ box-sizing:border-box;
     text-transform: uppercase;
     color: $color-principal;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-style: italic;} .grupo-contactos h2:active{color: $color-secundaria; box-shadow:5px 5px 5px $color-principal;}
+     font-style: italic;} 
+     .grupo-contactos h2:active{color: $color-secundaria; box-shadow:5px 5px 5px $color-principal;}
 .grupo-contactos h3{font-family:sans-serif; color:$bg-secundaria;}
  
 
@@ -35,4 +40,5 @@ box-sizing:border-box;
     border:1px solid var($color-terciario);
     cursor:pointer;
     text-transform: capitalize;
+    margin-bottom:10px;
     }
