@@ -34,7 +34,7 @@ header {
 }
 
 .goo-maps {
-  padding: 30px;
+  padding: 0;
 }
 .goo-maps iframe {
   display: flex;
@@ -43,8 +43,8 @@ header {
   width: 600px;
   height: 600px;
   border-color: red;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
   box-shadow: 5px 5px 5px 5px black;
 }
 .goo-maps h1 {
@@ -96,7 +96,7 @@ nav ul li a a:hover {
   border-style: double;
   font-size: 20px;
   border-radius: 14px;
-  padding:0px;
+  padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -519,12 +519,12 @@ img {
   display: grid;
   gap: 25px;
   background-color: rgb(92, 92, 92);
-  padding:0;
+  padding: 0;
 }
 .container-card h2 {
   margin-bottom: 8px;
   font-size: 50px;
-  padding: 20px;
+  padding: 0;
   color: black;
   text-align: center;
   text-transform: capitalize;
@@ -591,8 +591,6 @@ img {
   border: 1px solid var(red);
   cursor: pointer;
   text-transform: capitalize;
-  margin-bottom:15px;
-
 }
 
 .container-carrd {
@@ -683,7 +681,7 @@ img:hover {
     text-transform: capitalize;
   }
   nav ul li a .container-card h3 .container-card .goo-maps {
-    padding: 30px;
+    padding: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -696,7 +694,7 @@ img:hover {
     height: 400px;
     border-color: red;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     box-shadow: 5px 5px 5px 5px black;
     justify-content: center;
     align-items: center;
@@ -718,8 +716,11 @@ img:hover {
     align-items: center;
     justify-content: center;
     padding: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
   nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .contacto-grid {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -732,6 +733,8 @@ img:hover {
     padding: 0;
     display: grid;
     gap: 25px;
+    margin-right: 0;
+    margin-left: 0;
   }
   nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids {
     width: 100%;
@@ -866,7 +869,7 @@ img:hover {
     height: 300px;
     border-color: red;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     box-shadow: 5px 5px 5px 5px black;
     justify-content: center;
     align-items: center;
