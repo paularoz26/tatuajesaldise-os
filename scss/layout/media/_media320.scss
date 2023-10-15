@@ -35,7 +35,7 @@
         text-align:center;
         text-transform:capitalize;
         font-weight:normal;
-        color:black;
+        color:$color-principal;
         } 
         .grupo-contactos h3{ display: grid;
         gap:20px;}
@@ -45,15 +45,15 @@
         
         .contac-label{text-transform: uppercase;
         font-weight:500;
-        color:black;
+        color:$color-principal;
         }
         
-        .grupo-contactos label:hover{color:red;
-        box-shadow:4px 4px 4px black;
+        .grupo-contactos label:hover{color:$bg-secundaria;
+        box-shadow:4px 4px 4px $color-principal;
         text-decoration:underline;
         }
         
-        .grupo-contactos p:hover{color:black; }
+        .grupo-contactos p:hover{color:$color-principal; }
         
         .contac-grupo{display:grid;
         gap:3px;}
@@ -85,31 +85,31 @@
         .grupo-contactos p{text-transform:capitalize;}
          .grupo-contactos h4{text-transform: capitalize;
         border-style:groove;
-        color:orangered;
+        color:$color-universidad;
         border-radius: 60px;
         align-items: center;
-        box-shadow:4px 4px 4px white;
-        background-color:black;
+        box-shadow:4px 4px 4px $color-secundaria;
+        background-color: $color-principal;
         font-size:20px;}
-        .contac-grupo label:hover{color:black;}
-        .contac-grupo input:hover{ border-color:orangered;border-style: double;}
+        .contac-grupo label:hover{color:$color-principal;}
+        .contac-grupo input:hover{ border-color:$color-universidad;border-style: double;}
         .contac-grupo button{ width:100%;
         height:50px;
         font-size: bold;
         font-size:30px;
-        background-color:black;
-        color:red;
+        background-color:$color-principal;
+        color:$bg-secundaria;
         border-radius:7px;
-        border:1px solid var(red);
+        border:1px solid var($bg-secundaria);
         cursor:pointer;
         text-transform: capitalize;
         }
-        .grupo-contactos h3{ color: black;}
-        .contac-detalle h3{color:black;}
+        .grupo-contactos h3{ color: $color-principal;}
+        .contac-detalle h3{color: $color-principal;}
         
-        .grupo-contactos h3:hover{color:orangered; background-color: white;}
+        .grupo-contactos h3:hover{color: $color-universidad; background-color: $color-secundaria;}
         
-        .contac-grupo button:hover{ box-shadow:4px 4px 4px white;}
+        .contac-grupo button:hover{ box-shadow:4px 4px 4px $color-secundaria;}
         }
     
     

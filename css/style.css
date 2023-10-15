@@ -85,7 +85,7 @@ nav ul li a a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: gray;
+  background-color: black;
   align-items: center;
   margin: 0 20px;
   margin: 0 20px;
@@ -104,7 +104,7 @@ nav ul li a a:hover {
   border-style: double;
   text-align: center;
   border-radius: 20px;
-  color: orangered;
+  color: rgb(222, 69, 9);
   background-color: black;
 }
 .grids .grupo-contactos h2 {
@@ -238,7 +238,7 @@ img {
   overflow: hidden;
   margin-bottom: 15px;
   align-items: center;
-  background-color: rgb(231, 227, 227);
+  background-color: white;
   margin: 0 6px;
 }
 
@@ -285,7 +285,7 @@ img {
 }
 .contacto-grid .grupo-contactos h2:hover {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(57, 5, 57);
+  color: black;
 }
 .contacto-grid .grupo-contactos h3 {
   display: grid;
@@ -340,7 +340,7 @@ img {
   padding: 5px 10px;
 }
 .contacto-grid .contact-form input:hover {
-  border-color: orangered;
+  border-color: rgb(222, 69, 9);
 }
 .contacto-grid .contact-form textarea {
   border-radius: 7px;
@@ -413,7 +413,7 @@ img {
   height: 400px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 3px 3px 5px rgb(176, 173, 173);
+  box-shadow: 3px 3px 5px rgb(92, 92, 92);
   margin-bottom: 8px;
 }
 
@@ -449,7 +449,7 @@ img {
 .grid-uno, .grid-dos, .grid-tres {
   justify-content: space-evenly;
   justify-content: space-between;
-  background-color: rgb(231, 227, 227);
+  background-color: white;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -460,7 +460,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
   justify-content: space-between;
-  background-color: rgb(231, 227, 227);
+  background-color: white;
 }
 
 .grid-dos, .grid-tres {
@@ -478,7 +478,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
   justify-content: space-between;
-  background-color: rgb(231, 227, 227);
+  background-color: white;
 }
 
 .grid-tres {
@@ -499,7 +499,7 @@ img {
 .container img {
   float: left;
   margin-right: 20px;
-  background-color: rgb(202, 196, 196);
+  background-color: white;
   overflow: hidden;
 }
 .container img h1 {
@@ -618,7 +618,7 @@ img:hover {
     flex-wrap: column;
     flex-direction: wrap;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: black;
     align-items: center;
     margin: 0 20px;
   }
@@ -813,7 +813,7 @@ img:hover {
     flex-wrap: column;
     flex-direction: wrap;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: black;
     align-items: center;
     margin: 0 20px;
   }
@@ -1178,7 +1178,7 @@ img:hover {
     flex-wrap: column;
     flex-direction: wrap;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: black;
     align-items: center;
     margin: 0 20px;
   }
@@ -1326,7 +1326,7 @@ img:hover {
   nav ul li a .goo-maps h1 .grupo-contactos h4 {
     text-transform: capitalize;
     border-style: groove;
-    color: orangered;
+    color: rgb(222, 69, 9);
     border-radius: 60px;
     align-items: center;
     box-shadow: 4px 4px 4px white;
@@ -1337,7 +1337,7 @@ img:hover {
     color: black;
   }
   nav ul li a .goo-maps h1 .contac-grupo input:hover {
-    border-color: orangered;
+    border-color: rgb(222, 69, 9);
     border-style: double;
   }
   nav ul li a .goo-maps h1 .contac-grupo button {
@@ -1359,7 +1359,7 @@ img:hover {
     color: black;
   }
   nav ul li a .goo-maps h1 .grupo-contactos h3:hover {
-    color: orangered;
+    color: rgb(222, 69, 9);
     background-color: white;
   }
   nav ul li a .goo-maps h1 .contac-grupo button:hover {
@@ -1466,7 +1466,7 @@ img:hover {
     flex-wrap: column;
     flex-direction: wrap;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: black;
     align-items: center;
     margin: 0 20px;
   }
@@ -1585,7 +1585,7 @@ img:hover {
   nav ul li a .buscar .grupo-contactos h4 {
     text-transform: capitalize;
     border-style: groove;
-    color: orangered;
+    color: rgb(222, 69, 9);
     border-radius: 60px;
     align-items: center;
     box-shadow: 4px 4px 4px white;
@@ -1596,7 +1596,7 @@ img:hover {
     color: black;
   }
   nav ul li a .buscar .contac-grupo input:hover {
-    border-color: orangered;
+    border-color: rgb(222, 69, 9);
     border-style: double;
   }
   nav ul li a .buscar .contac-grupo button {
@@ -1618,7 +1618,7 @@ img:hover {
     color: black;
   }
   nav ul li a .buscar .grupo-contactos h3:hover {
-    color: orangered;
+    color: rgb(222, 69, 9);
     background-color: white;
   }
   nav ul li a .buscar .contac-grupo button:hover {

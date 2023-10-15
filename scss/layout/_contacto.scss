@@ -14,7 +14,7 @@
       overflow:hidden;
       margin-bottom:15px;
       align-items: center;   
-      background-color:rgb(231, 227, 227);
+      background-color:$color-secundaria;
       
       margin:0 6px;
     }
@@ -39,12 +39,12 @@
     justify-content: center;
     .grupo-contactos h3{margin:0;
       padding:0;
-      color:black;
+      color:$color-principal;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       display: grid;}
       
-      .grupo-contactos h3:hover{color:red;
-      box-shadow: 5px 5px 5px black;}
+      .grupo-contactos h3:hover{color:$bg-secundaria;
+      box-shadow: 5px 5px 5px $color-principal;}
       
       .grupo-contacto p{margin:0; padding:0;
       }
@@ -59,34 +59,34 @@
       ;} 
       
       .grupo-contactos h2:hover{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      color:rgb(57, 5, 57);}
+      color:$color-principal;}
       
       .grupo-contactos h3{ display: grid;
       gap:20px;}
       
       .grupos-contactos p{display: grid;
       gap:20px;
-      color:white;
+      color:$color-secundaria;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-style: italic;
       font-weight: 100;
       }
       .contac-label{text-transform:capitalize;
         font-weight:500;
-        color:black;
+        color:$color-principal;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         }
         
-        .contac-label:active{color:red;
-        box-shadow: 4px 4px 4px black; }
+        .contac-label:active{color:$bg-secundaria;
+        box-shadow: 4px 4px 4px $color-principal; }
         
-        .grupo-contactos label:hover{color:red;
-        box-shadow:4px 4px 4px black;
+        .grupo-contactos label:hover{color:$bg-secundaria;
+        box-shadow:4px 4px 4px $color-principal;
         text-decoration:underline;
         }
         
-        .grupo-contactos p:hover{color:black; }
+        .grupo-contactos p:hover{color:$color-principal; }
         
         .contac-grupo{display:grid;
         gap:3px;}
@@ -104,7 +104,7 @@
         padding: 5px 10px;
         }
         
-        .contact-form input:hover{border-color:orangered;}
+        .contact-form input:hover{border-color:$color-universidad;}
         
         .contact-form textarea{ border-radius: 7px;
         border:none;
@@ -146,7 +146,7 @@
     border:1px solid var($color-terciario);
     cursor:pointer;
     text-transform: capitalize;
-    .contac-grupo button:hover{ box-shadow:4px 4px 4px white;}
+    .contac-grupo button:hover{ box-shadow:4px 4px 4px $color-secundaria;}
 
     }}
   
