@@ -1,18 +1,24 @@
-.goo-maps{padding:0;
-   
+.goo-maps{
+    display:grid;
+    padding:0;
+   margin-bottom:0;
+   align-items: center;
+   margin:0 auto;
+   gap:20px;
+   margin-bottom:30px;
+   margin-top:10px;
 
-
-   
-    iframe{display: flex;
+   iframe{display: flex;
     border-radius:20px;
     border-style: double;
-    width:600px;
-    height:600px;
+    width:300px;
+    height:300px;
     border-color:$bg-secundaria;
     margin:0;
     padding:0;
     box-shadow:5px 5px 5px 5px $color-principal;
-    
+    margin-bottom:5px;
+    margin-top:5px;
     }
     h1{
         align-items:center;
