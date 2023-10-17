@@ -7,7 +7,7 @@ xxl:50px,
 
 );
 
-$colores:(
+$fondo-colores:(
 rojo:red,
 azul:blue,
 verde:green,
@@ -16,10 +16,13 @@ naranja:orange,
 negro:black,
 gris:gray,
 blanco:white,
+);
 
-
-
-)
+$titulo-colores:(
+    black,
+    red,
+    white,
+);
 
 
 
