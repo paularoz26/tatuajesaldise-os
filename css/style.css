@@ -66,7 +66,7 @@ header {
 nav ul {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
 }
 nav ul li {
@@ -76,12 +76,11 @@ nav ul li:hover {
   transform: scale(1.1);
 }
 nav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 20px;
-  background-color: black;
-  box-shadow: 2px 2px 2px 2px red;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 nav ul li a a:hover {
   transform: scale(1.1);
@@ -443,7 +442,6 @@ img {
 
 .container-card {
   text-align: center;
-  text-transform: capitalize;
   color: black;
   margin-top: 8px;
   margin-bottom: 10px;
@@ -526,7 +524,6 @@ img {
 .container {
   border-radius: 20px;
   border-style: double;
-  border-color: red;
   margin: 0 auto;
   padding: 10px;
   box-shadow: 5px 5px 5px 5px black;
@@ -679,12 +676,10 @@ img:hover {
     transform: scale(1.1);
   }
   nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
-    background-color: black;
-    box-shadow: 4px 4px 4px 4px green;
   }
   nav ul li a a:hover {
     transform: scale(1.1);
@@ -713,7 +708,6 @@ img:hover {
     display: none;
     font-size: 20px;
     align-items: flex-start;
-    text-transform: capitalize;
     color: red;
   }
   nav ul li a .container-card h3 .container-card h4 {
@@ -874,12 +868,10 @@ img:hover {
     transform: scale(1.1);
   }
   nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
-    background-color: black;
-    box-shadow: 3px 3px 3px 3px blue;
   }
   nav ul li a a:hover {
     transform: scale(1.1);
@@ -1239,12 +1231,10 @@ img:hover {
     transform: scale(1.1);
   }
   nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
-    background-color: black;
-    box-shadow: 2px 2px 2px 2px green;
   }
   nav ul li a a:hover {
     transform: scale(1.1);
@@ -1532,7 +1522,6 @@ img:hover {
     text-transform: capitalize;
     font-size: 20px;
     background-color: black;
-    box-shadow: 2px 2px 2px 2px green;
   }
   nav ul li a a:hover {
     transform: scale(1.1);

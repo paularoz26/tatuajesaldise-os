@@ -1,14 +1,17 @@
 nav{ul{ display: flex;
    gap:20px;
-    justify-content:center;
+   justify-content:space-between;
+
     list-style: none;
   li{ list-style:none;
     &:hover{transform:scale(1.1);}
-  a{color:$color-secundaria;
+  a{color:$color-principal;
     text-decoration: none;
     text-transform: capitalize;
-  font-size:20px;
-  background-color:$color-principal;
-box-shadow: 2px 2px 2px 2px $bg-secundaria;
+  font-size:40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
 a:hover{transform: scale(1.1);}
   }}}}
