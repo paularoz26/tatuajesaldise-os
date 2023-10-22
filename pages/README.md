@@ -1,4 +1,4 @@
-#tattodiablo
+#tattoodiablo
 >aplicando scss
 ##profesores
 - maxi
@@ -10,3 +10,6 @@
 ## herramientas
 - html 
 - scss
+
+##
+- imagen
