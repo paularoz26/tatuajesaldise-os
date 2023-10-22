@@ -161,11 +161,14 @@ margin-top:10px;
   color:$color-principal;
   font-size:30px;
   text-decoration:underline;
-  text-transform: capitalize;}
+  text-transform: capitalize;
+  }
   p{color:$color-secundaria;
   font-size:20px;
   align-items: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
+
+
 
 }
   }
