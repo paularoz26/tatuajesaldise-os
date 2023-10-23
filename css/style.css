@@ -420,7 +420,7 @@ img {
   color: white;
   font-size: 20px;
   align-items: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .container-card h4 {
@@ -447,13 +447,11 @@ img {
   margin-bottom: 10px;
 }
 .container-card h1 {
-  font-weight: 300px;
-  font-weight: bold;
-  font-style: italic;
-  text-transform: uppercase;
+  font-weight: 600px;
+  font-size: 900px;
+  font-family: "Nosifer", sans-serif;
   text-shadow: 2px 2px 2px red;
   color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
   align-items: center;
   padding: 5px;
   font-size: 40px;
