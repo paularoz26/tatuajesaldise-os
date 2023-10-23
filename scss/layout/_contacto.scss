@@ -54,7 +54,8 @@ margin-top:10px;
       
       .grupo-contacto p{margin:0; padding:0;
       }
-      .grupo-contacto {padding:0px;
+      .grupo-contacto {
+      padding:0px;
       margin:0px;}
       
       .grupo-contactos h2{font-size:50px;
@@ -125,11 +126,12 @@ margin-top:10px;
         .grupo-contactos h3{ text-transform:capitalize;}
         
         .grupo-contactos p{text-transform:capitalize;}
-         .grupo-contactos h4{text-transform: capitalize;
+         .grupo-contactos h4{font-family: 'Eater', serif;
+          font-size:30px;
         border-style:groove;
         color:$color-principal;
         text-align: center;
-        box-shadow:4px 4px 4px $color-secundaria;
+        box-shadow:2px 2px 2px $color-secundaria;
         background-color:$color-terciario;}
         
 

@@ -3,7 +3,7 @@
       background-color:$color-principal;
       border-style: double;
       color:$color-secundaria;
-      text-transform: capitalize;
+ 
       text-align: center; 
       justify-content: center;
       .pie-pagina h3 {
@@ -12,8 +12,9 @@
       text-align: center; 
       .pie-pagina {h3 {.nuestrasredes a {
       justify-content: center;
-      gap: 15px;  
-      .button{
+      gap: 15px; 
+      text-transform: capitalize; 
+      .button{text-decoration:none;
          height:50px;
          font-size: bold;
          font-size:30px;
@@ -35,7 +36,7 @@
         background-color:$color-principal;
         border-style: double;
         color:$color-secundaria;
-        text-transform: capitalize;
+    
         text-align: center; 
         &{.pie-pagina h3 {
         color:$color-secundaria;
