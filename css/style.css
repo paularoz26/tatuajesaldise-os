@@ -81,7 +81,7 @@ nav ul li:hover {
 nav ul li a {
   color: black;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 nav ul li a a:hover {
@@ -236,12 +236,17 @@ nav ul li a a:hover {
 
 .grids {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 10px;
   gap: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 img {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -662,7 +667,8 @@ img:hover {
   height: 800px;
 }
 
-.container-error {
+.error-404 {
+  background-color: rgb(130, 126, 126);
   width: 100%;
   height: 100%;
   display: flex;
@@ -672,22 +678,35 @@ img:hover {
   justify-content: center;
   border-color: 3px 3px 3px red;
 }
-.container-error h1 {
+.error-404 h1 {
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  text-align: center;
   color: black;
   align-items: center;
-  text-shadow: 1px 1px 1px red;
+  text-shadow: 2px 2px 2px red;
   font-size: 30px;
   font-family: "Nosifer", sans-serif;
 }
-.container-error h1 .h2 {
+.error-404 h1 .h2 {
   font-family: "Nosifer", sans-serif;
   font-size: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
-.container-error h1 .h2 button a {
+.error-404 h1 .h2 button a {
   padding: 15px 30px;
   border-radius: 15px;
   background-color: red;
   color: black;
+  position: absolute;
 }
 
 @media (max-width: 768px) {
@@ -700,6 +719,8 @@ img:hover {
     background-color: black;
     align-items: center;
     margin: 0 20px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
   nav ul {
     display: flex;
