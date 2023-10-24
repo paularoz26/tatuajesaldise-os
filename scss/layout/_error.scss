@@ -1,0 +1,31 @@
+.body{background-color: black;
+margin:0px;
+padding:0px;
+height:100vh;
+}
+.img{width:100%;
+    height:800px;
+   
+}
+
+.container-error{width:100%;
+height:100%;
+display: flex;
+flex-direction: column;
+gap:30px;
+align-items: center;
+justify-content: center;
+border-color: 3px 3px 3px $bg-secundaria;
+h1{color:$color-principal;
+align-items: center;
+text-shadow:1px 1px 1px $bg-secundaria;
+font-size:30px;
+font-family: "Nosifer", sans-serif;
+.h2{font-family:"Nosifer", sans-serif;
+font-size:50px; 
+button{a{padding:15px 30px;
+border-radius:15px;
+background-color:$bg-secundaria;
+color:$color-principal;}
+ }
+}}}

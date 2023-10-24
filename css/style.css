@@ -554,7 +554,6 @@ img {
 }
 
 .container-card {
-  display: grid;
   gap: 25px;
   background-color: rgb(130, 126, 126);
   padding: 0;
@@ -649,6 +648,46 @@ img {
 }
 img:hover {
   transform: scale(1.1);
+}
+
+.body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+.img {
+  width: 100%;
+  height: 800px;
+}
+
+.container-error {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-color: 3px 3px 3px red;
+}
+.container-error h1 {
+  color: black;
+  align-items: center;
+  text-shadow: 1px 1px 1px red;
+  font-size: 30px;
+  font-family: "Nosifer", sans-serif;
+}
+.container-error h1 .h2 {
+  font-family: "Nosifer", sans-serif;
+  font-size: 50px;
+}
+.container-error h1 .h2 button a {
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: red;
+  color: black;
 }
 
 @media (max-width: 768px) {
