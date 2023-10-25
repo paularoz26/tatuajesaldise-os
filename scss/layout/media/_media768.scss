@@ -160,5 +160,17 @@ margin-left:0;}
               border-style: double;
               color:$color-secundaria;
               padding:2rem;
+              .footer-row{display: flex;
+              flex-direction:row;
+            flex-wrap: wrap;
+          justify-content: space-between;
+        align-items:center;
+        .footer-redes{width:25%;
+        padding:0 0.9300rem;
+      .footer-pie{display: flex;
+      flex-wrap: wrap;
+  flex-direction: column;
+align-items: flex-start;}}
+      }
             
         }}}}}}}}}}}}}}}}}}}}}

@@ -190,11 +190,14 @@ nav ul li a a:hover {
   color: white;
   padding: 2rem;
 }
+.pie-pagina .container-pie {
+  margin: -0.5em;
+}
 .pie-pagina .container-pie .footer-pie {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: none;
   text-transform: capitalize;
@@ -202,13 +205,8 @@ nav ul li a a:hover {
 .pie-pagina .container-pie .footer-pie .footer-redes {
   width: 20%;
   padding: 0;
-  flex-direction: column;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-transform: capitalize;
 }
-.pie-pagina .pie-pagina h3 {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 {
   color: red;
   text-transform: capitalize;
   text-align: center;
@@ -218,10 +216,8 @@ nav ul li a a:hover {
   border-bottom: 0.123rem solid red;
   padding-bottom: 0.6rem;
   display: inline-block;
-  display: flex;
-  text-decoration: underline;
 }
-.pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
   justify-content: center;
   gap: 15px;
   color: red;
@@ -235,7 +231,7 @@ nav ul li a a:hover {
   display: inline-block;
   text-decoration: underline;
 }
-.pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
   text-decoration: none;
   height: 50px;
   font-size: bold;
@@ -247,18 +243,18 @@ nav ul li a a:hover {
   cursor: pointer;
   text-transform: capitalize;
 }
-.pie-pagina .tatto-fixed {
+.pie-pagina .container-pie .footer-pie .footer-redes .tatto-fixed {
   position: fixed;
   right: 0;
   bottom: 0;
 }
-.pie-pagina .pie-pagina {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina {
   background-color: black;
   border-style: double;
   color: white;
   text-align: center;
 }
-.pie-pagina .pie-pagina .pie-pagina h3 {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina .pie-pagina h3 {
   color: white;
   text-transform: capitalize;
   text-align: center;
@@ -273,7 +269,7 @@ nav ul li a a:hover {
   display: inline-block;
   text-decoration: underline;
 }
-.pie-pagina .pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
   justify-content: center;
   gap: 15px;
   text-decoration: underline;
@@ -981,6 +977,23 @@ img:hover {
     border-style: double;
     color: white;
     padding: 2rem;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row .footer-redes {
+    width: 25%;
+    padding: 0 0.93rem;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row .footer-redes .footer-pie {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (max-width: 768px) {

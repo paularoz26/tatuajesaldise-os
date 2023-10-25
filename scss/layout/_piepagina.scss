@@ -4,11 +4,11 @@
       color:$color-secundaria;
       padding:2rem;
 
-      .container-pie{
+      .container-pie{margin: -0.5em;;
       .footer-pie{display:flex;
       flex-direction:row;
    flex-wrap:wrap;
-justify-content:space-evenly;
+justify-content:space-between;
 align-items: center;
 gap:none;
 text-transform: capitalize;
@@ -16,17 +16,7 @@ text-transform: capitalize;
 
 .footer-redes{width:20%;
 padding:0;
-flex-direction: column;
-display:flex;
-      flex-direction:row;
-   flex-wrap:wrap;
-   text-transform: capitalize;
-
-}}
-      }
- 
-     
-      .pie-pagina h3 {
+.pie-pagina h3 {
       color:$bg-secundaria;
       text-transform:capitalize;
       text-align: center; 
@@ -36,10 +26,7 @@ display:flex;
       border-bottom:0.123rem solid $bg-secundaria;
       padding-bottom:0.600rem;
       display: inline-block;
-      display:flex;
-      text-decoration: underline;
-
-      .pie-pagina {h3 {.nuestrasredes a {
+   .pie-pagina {h3 {.nuestrasredes a {
       justify-content: center;
       gap: 15px; 
       color:$bg-secundaria;
@@ -96,7 +83,7 @@ display:flex;
         gap: 15px;
         text-decoration: underline;
      }}}
-   }}
+   }}}}}
 
      
     
