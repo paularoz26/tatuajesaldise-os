@@ -1,14 +1,36 @@
 .grids{display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-evenly;
   margin:0px 10px;
- gap:20px;
+ gap:none;
   margin-top:23px;
   margin-bottom:23px;
-
-
+  padding:15px;
+.container-grids{padding:15px;
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
+.section1{width:20rem;
+border-radius:0.5rem;
+background-color:$color-principal;
+margin-bottom:0.3125rem;}
+.section2{width:20rem;
+  border-radius:0.5rem;
+  background-color:$color-principal;
+  margin-bottom:0.3125rem;}
+  .section3{width:20rem;
+    border-radius:0.5rem;
+    background-color:$color-principal;
+    margin-bottom:0.3125rem;}
+    .section4{width:20rem;
+      border-radius:0.5rem;
+      background-color:$color-principal;
+      margin-bottom:0.3125rem;}}
+
+
     img{width:100%;
       display: flex;
       flex-direction: row;
@@ -31,6 +53,7 @@
    .container-card{width: 100%;
     height:100%;
   margin-bottom:20px;
+
   }
 
     .contacto-grid{
@@ -51,7 +74,7 @@ margin-top:10px;
     justify-content: center;
     .grupo-contactos h3{margin:0;
       padding:0;
-      color:$color-principal;
+      color:$color-secundaria;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       display: grid;}
       
@@ -166,7 +189,7 @@ margin-top:10px;
     }}
   
   .container-card{h3{text-align: center;
-  color:$color-principal;
+  color:$color-secundaria;
   font-size:30px;
   text-decoration:underline;
   text-transform: capitalize;
@@ -184,4 +207,3 @@ margin-top:10px;
   color:$color-terciario;
   font-size:40px;
 text-transform: capitalize;}}
-  

@@ -1,19 +1,59 @@
  .pie-pagina{border-color:$bg-secundaria;
-
       background-color:$color-principal;
       border-style: double;
       color:$color-secundaria;
+      padding:2rem;
+
+      .container-pie{
+      .footer-pie{display:flex;
+      flex-direction:row;
+   flex-wrap:wrap;
+justify-content:space-evenly;
+align-items: center;
+gap:none;
+text-transform: capitalize;
+
+
+.footer-redes{width:20%;
+padding:0;
+flex-direction: column;
+display:flex;
+      flex-direction:row;
+   flex-wrap:wrap;
+   text-transform: capitalize;
+
+}}
+      }
  
-      text-align: center; 
-      justify-content: center;
+     
       .pie-pagina h3 {
       color:$bg-secundaria;
-      text-transform: capitalize;
+      text-transform:capitalize;
       text-align: center; 
+      font-size:20px;
+      margin-bottom:15600rem;
+      font-weight:600;
+      border-bottom:0.123rem solid $bg-secundaria;
+      padding-bottom:0.600rem;
+      display: inline-block;
+      display:flex;
+      text-decoration: underline;
+
       .pie-pagina {h3 {.nuestrasredes a {
       justify-content: center;
       gap: 15px; 
-      text-transform: capitalize; 
+      color:$bg-secundaria;
+      text-transform:capitalize;
+      text-align: center; 
+      font-size:20px;
+      margin-bottom:15600rem;
+      font-weight:600;
+      border-bottom:0.123rem solid $bg-secundaria;
+      padding-bottom:0.600rem;
+      display: inline-block;
+      text-decoration: underline;
+
+
       .button{text-decoration:none;
          height:50px;
          font-size: bold;
@@ -32,7 +72,6 @@
         right:0;
         bottom:0;}
          .pie-pagina {
-
         background-color:$color-principal;
         border-style: double;
         color:$color-secundaria;
@@ -42,9 +81,20 @@
         color:$color-secundaria;
         text-transform: capitalize;
         text-align: center; 
+        color:$bg-secundaria;
+        text-transform:capitalize;
+        text-align: center; 
+        font-size:20px;
+        margin-bottom:15600rem;
+        font-weight:600;
+        border-bottom:0.123rem solid $bg-secundaria;
+        padding-bottom:0.600rem;
+        display: inline-block;
+        text-decoration: underline;
         .pie-pagina h3 .nuestrasredes a {
         justify-content: center;
         gap: 15px;
+        text-decoration: underline;
      }}}
    }}
 

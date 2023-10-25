@@ -1,14 +1,11 @@
 .container{border-radius:20px;
   border-style: double;
-  margin:0 auto;
   padding:10px;
   box-shadow:5px 5px 5px 5px $color-principal;
   margin-bottom:20px;
   margin-top:10px;
+  border-color:$bg-secundaria;
 
-border-color:$bg-secundaria;
-margin:0 auto;
-padding:10px;
   img{float: left;
   margin-right:20px;
     background-color:$color-secundaria;
