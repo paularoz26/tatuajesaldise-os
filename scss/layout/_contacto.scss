@@ -76,7 +76,9 @@ margin-top:10px;
       padding:0;
       color:$color-secundaria;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      display: grid;}
+      display: grid;
+      text-align: center;
+   }
       
       .grupo-contactos h3:hover{color:$bg-secundaria;
       box-shadow: 5px 5px 5px $color-principal;}
@@ -187,11 +189,12 @@ margin-top:10px;
     .contac-grupo button:hover{ box-shadow:4px 4px 4px $color-secundaria;}
 
     }}
-  
-  .container-card{h3{text-align:justify;
+
+  .container-card{h3{text-align:center;
   color:$color-secundaria;
   font-size:30px;
   text-transform: capitalize;
+
   }
   p{color:$color-secundaria;
   font-size:20px;
