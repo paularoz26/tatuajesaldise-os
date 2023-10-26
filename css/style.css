@@ -14,10 +14,14 @@
     font-family: sans-serif;
   }
 }
-.newsection .tatto-fixed {
+.tatto-fixed {
   position: fixed;
   right: 0;
   bottom: 0;
+  margin: 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header {
@@ -192,6 +196,7 @@ nav ul li a a:hover {
 }
 .pie-pagina .container-pie {
   margin: -0.5em;
+  align-items: center;
 }
 .pie-pagina .container-pie .footer-pie {
   display: flex;
@@ -203,18 +208,18 @@ nav ul li a a:hover {
   text-transform: capitalize;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes {
-  width: 20%;
   padding: 0;
+  align-items: center;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 {
   color: red;
   text-transform: capitalize;
   text-align: center;
-  font-size: 20px;
-  margin-bottom: 15600rem;
+  font-size: 15px;
+  margin-bottom: 20px;
   font-weight: 600;
   border-bottom: 0.123rem solid red;
-  padding-bottom: 0.6rem;
+  padding-bottom: 20px;
   display: inline-block;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
@@ -223,13 +228,14 @@ nav ul li a a:hover {
   color: red;
   text-transform: capitalize;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15600rem;
   font-weight: 600;
   border-bottom: 0.123rem solid red;
   padding-bottom: 0.6rem;
   display: inline-block;
   text-decoration: underline;
+  align-items: center;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
   text-decoration: none;
@@ -242,6 +248,7 @@ nav ul li a a:hover {
   border: 1px solid var(rgb(72, 53, 72));
   cursor: pointer;
   text-transform: capitalize;
+  align-items: center;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .tatto-fixed {
   position: fixed;
@@ -261,7 +268,7 @@ nav ul li a a:hover {
   color: red;
   text-transform: capitalize;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15600rem;
   font-weight: 600;
   border-bottom: 0.123rem solid red;
@@ -971,29 +978,53 @@ img:hover {
     height: 100%;
     object-fit: cover;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina {
     border-color: red;
     background-color: black;
     border-style: double;
     color: white;
     padding: 2rem;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row {
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina .container-pie {
+    margin: -0.5em;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina .container-pie .footer-pie {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: none;
+    text-transform: capitalize;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row .footer-redes {
-    width: 25%;
-    padding: 0 0.93rem;
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina .container-pie .footer-pie .footer-redes {
+    padding: 0;
+    align-items: center;
   }
-  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .pie-pagina .footer-row .footer-redes .footer-pie {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 {
+    color: red;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15600rem;
+    font-weight: 600;
+    border-bottom: 0.123rem solid red;
+    padding-bottom: 0.6rem;
+    display: inline-block;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .section-grids .section1 .section1 img:hover .section2 .section2 img:hover .section3 .section3 img .section5 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+    justify-content: center;
+    gap: 15px;
+    color: red;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15600rem;
+    font-weight: 600;
+    border-bottom: 0.123rem solid red;
+    padding-bottom: 0.6rem;
+    display: inline-block;
+    text-decoration: underline;
   }
 }
 @media (max-width: 768px) {

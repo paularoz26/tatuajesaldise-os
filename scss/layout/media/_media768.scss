@@ -152,7 +152,8 @@ margin-left:0;}
            .section1 img{
             width:100%;
             height:100%;
-            object-fit: cover;}} 
+            object-fit: cover;}
+
 
 
             .pie-pagina{border-color:$bg-secundaria;
@@ -160,17 +161,45 @@ margin-left:0;}
               border-style: double;
               color:$color-secundaria;
               padding:2rem;
-              .footer-row{display: flex;
+        
+              .container-pie{margin: -0.5em;;
+              .footer-pie{display:flex;
               flex-direction:row;
-            flex-wrap: wrap;
-          justify-content: space-between;
-        align-items:center;
-        .footer-redes{width:25%;
-        padding:0 0.9300rem;
-      .footer-pie{display: flex;
-      flex-wrap: wrap;
-  flex-direction: column;
-align-items: flex-start;}}
-      }
-            
-        }}}}}}}}}}}}}}}}}}}}}
+           flex-wrap:wrap;
+        justify-content:space-between;
+        align-items: center;
+        gap:none;
+        text-transform: capitalize;
+        
+        
+        .footer-redes{
+        padding:0;
+        align-items: center;
+        .pie-pagina h3 {
+              color:$bg-secundaria;
+              text-transform:capitalize;
+              text-align: center; 
+              font-size:12px;
+              margin-bottom:15600rem;
+              font-weight:600;
+              border-bottom:0.123rem solid $bg-secundaria;
+              padding-bottom:0.600rem;
+              display: inline-block;
+           .pie-pagina {h3 {.nuestrasredes a {
+              justify-content: center;
+              gap: 15px; 
+              color:$bg-secundaria;
+              text-transform:capitalize;
+              text-align: center; 
+              font-size:12px;
+              margin-bottom:15600rem;
+              font-weight:600;
+              border-bottom:0.123rem solid $bg-secundaria;
+              padding-bottom:0.600rem;
+              display: inline-block;
+              text-decoration: underline;
+
+
+
+
+        }}}}}}}}}}}}}}}}}}}}}}}}}}}}}
