@@ -234,7 +234,6 @@ nav ul li a a:hover {
   border-bottom: 0.123rem solid red;
   padding-bottom: 0.6rem;
   display: inline-block;
-  text-decoration: underline;
   align-items: center;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
@@ -498,16 +497,15 @@ img {
 }
 
 .container-card h3 {
-  text-align: center;
+  text-align: justify;
   color: white;
   font-size: 30px;
-  text-decoration: underline;
   text-transform: capitalize;
 }
 .container-card p {
   color: white;
   font-size: 20px;
-  align-items: center;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -1024,7 +1022,6 @@ img:hover {
     border-bottom: 0.123rem solid red;
     padding-bottom: 0.6rem;
     display: inline-block;
-    text-decoration: underline;
   }
 }
 @media (max-width: 768px) {
