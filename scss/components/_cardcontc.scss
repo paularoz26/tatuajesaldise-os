@@ -13,12 +13,14 @@
   text-shadow:1px 1px 1px $bg-secundaria;
    }.contact-form input{ border-radius: 7px;
     border:none;
-    height:30px;
+    height:25px;
+    width: 420px;
     padding: 5px 10px;
     }.contact-form textarea{ border-radius: 7px;
       border:none;
       height:90px;
-      padding:5px 10px;}
+      padding:5px 10px;
+    width:420px;}
       .contact-form textarea{height:auto;
         resize:vertical;
         } .contac-grupo{display:grid;
@@ -42,8 +44,9 @@
             .grupo-contactos p:hover{color:$color-principal;}
             
   }
-  .contac-grupo button{ width:100%;
+  .contac-grupo button{
   height:50px;
+  width:300px;
   font-size: bold;
   font-size:30px;
   background-color:$color-principal;

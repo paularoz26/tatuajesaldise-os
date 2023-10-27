@@ -154,7 +154,9 @@ margin-top:10px;
         resize:vertical;
         }
         
-        .grupo-contactos h3{ text-transform:capitalize;}
+        .grupo-contactos h3{ text-transform:capitalize;
+        margin-top:30px;
+      margin-bottom:15px;}
         
         .grupo-contactos p{text-transform:capitalize;}
          .grupo-contactos h4{font-family: 'Eater', serif;
@@ -163,7 +165,10 @@ margin-top:10px;
         color:$color-principal;
         text-align: center;
         box-shadow:2px 2px 2px $color-secundaria;
-        background-color:$color-terciario;}
+        background-color:$color-terciario;
+      width:390px;
+    text-decoration: none;
+  align-items: center;}
         
 
 
@@ -176,7 +181,10 @@ margin-top:10px;
     font-size:30px;
     }
     
-    .contac-grupo button{ width:100%;
+    .contac-grupo button{ 
+    width:200px;
+    align-items: center;
+ 
     height:50px;
     font-size: bold;
     font-size:30px;
@@ -197,9 +205,10 @@ margin-top:10px;
 
   }
   p{color:$color-secundaria;
-  font-size:20px;
+  font-size:15px;
   text-align:center;
-  text-transform: uppercase;
+text-transform:uppercase;
+
 
 
 
@@ -208,4 +217,10 @@ margin-top:10px;
   .container-card{h4{text-align: center;
   color:$color-terciario;
   font-size:40px;
-text-transform: capitalize;}}
+text-transform:uppercase;
+text-decoration: overline;
+
+margin-top:10px;
+margin-bottom: 10px;
+
+}}

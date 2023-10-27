@@ -25,7 +25,7 @@
 }
 
 header {
-  background-image: url("../assets/De-que-esta-hecha-la-tinta-para-tatuajes-1.jpg");
+  background-image: url("../assets/395953141_355024653715577_4606400420918268492_n.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -85,8 +85,10 @@ nav ul li:hover {
 nav ul li a {
   color: black;
   text-decoration: none;
+  text-shadow: 1px 1px 1px red;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
 }
 nav ul li a a:hover {
   transform: scale(1.1);
@@ -370,6 +372,7 @@ img {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: grid;
+  text-align: center;
 }
 .contacto-grid .grupo-contactos h3:hover {
   color: red;
@@ -462,6 +465,8 @@ img {
 }
 .contacto-grid .grupo-contactos h3 {
   text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 .contacto-grid .grupo-contactos p {
   text-transform: capitalize;
@@ -474,6 +479,9 @@ img {
   text-align: center;
   box-shadow: 2px 2px 2px white;
   background-color: rgb(72, 53, 72);
+  width: 390px;
+  text-decoration: none;
+  align-items: center;
 }
 .contacto-grid .contac-grupo {
   text-transform: capitalize;
@@ -481,7 +489,8 @@ img {
   font-size: 30px;
 }
 .contacto-grid .contac-grupo button {
-  width: 100%;
+  width: 200px;
+  align-items: center;
   height: 50px;
   font-size: bold;
   font-size: 30px;
@@ -497,14 +506,14 @@ img {
 }
 
 .container-card h3 {
-  text-align: justify;
+  text-align: center;
   color: white;
   font-size: 30px;
   text-transform: capitalize;
 }
 .container-card p {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -513,7 +522,10 @@ img {
   text-align: center;
   color: rgb(72, 53, 72);
   font-size: 40px;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-decoration: overline;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .portafolio {
@@ -652,7 +664,8 @@ img {
 .container-card .contact-form input {
   border-radius: 7px;
   border: none;
-  height: 30px;
+  height: 25px;
+  width: 420px;
   padding: 5px 10px;
 }
 .container-card .contact-form textarea {
@@ -660,6 +673,7 @@ img {
   border: none;
   height: 90px;
   padding: 5px 10px;
+  width: 420px;
 }
 .container-card .contact-form textarea {
   height: auto;
@@ -700,8 +714,8 @@ img {
 }
 
 .contac-grupo button {
-  width: 100%;
   height: 50px;
+  width: 300px;
   font-size: bold;
   font-size: 30px;
   background-color: black;
