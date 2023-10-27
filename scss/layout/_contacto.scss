@@ -166,7 +166,6 @@ margin-top:10px;
         text-align: center;
         box-shadow:2px 2px 2px $color-secundaria;
         background-color:$color-terciario;
-      width:390px;
     text-decoration: none;
   align-items: center;}
         
@@ -181,10 +180,9 @@ margin-top:10px;
     font-size:30px;
     }
     
-    .contac-grupo button{ 
-    width:200px;
-    align-items: center;
- 
+    .contac-grupo button{ margin:5px 5px;
+      text-align: center;
+    width:100%;
     height:50px;
     font-size: bold;
     font-size:30px;
