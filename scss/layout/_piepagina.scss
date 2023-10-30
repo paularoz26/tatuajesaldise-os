@@ -7,9 +7,7 @@
       .container-pie{margin: -0.5em;
          align-items: center;
       .footer-pie{display: flex;
-
-
-      flex-direction:row;
+     flex-direction:row;
    flex-wrap:wrap;
 justify-content:space-between;
 align-items: center;
@@ -19,8 +17,11 @@ text-transform: capitalize;
 
 .footer-redes{
 align-items: center;
-.redes-sociales{padding:15px;
+padding:30px;
+display: flex;
+.redes-sociales{
    gap:20px;
+
 
 .pie-pagina h3 {
       color:$bg-secundaria;
