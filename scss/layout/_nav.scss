@@ -4,12 +4,12 @@ nav{ul{ display: flex;
 
     list-style: none;
   li{ list-style:none;
-    &:hover{transform:scale(1.1);}
+   }
   a{color:$color-principal;
     text-decoration: none;
 text-shadow: 1px 1px 1px $bg-secundaria;
   font-size:30px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-transform:uppercase;
-a:hover{transform: scale(1.1);}
-  }}}}
+}
+  }}
