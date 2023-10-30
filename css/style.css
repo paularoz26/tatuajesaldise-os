@@ -206,14 +206,17 @@ nav ul li a a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: none;
+  gap: 20px;
   text-transform: capitalize;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes {
-  padding: 0;
   align-items: center;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales {
+  padding: 15px;
+  gap: 20px;
+}
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina h3 {
   color: red;
   text-transform: capitalize;
   text-align: center;
@@ -224,7 +227,7 @@ nav ul li a a:hover {
   padding-bottom: 20px;
   display: inline-block;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
   justify-content: center;
   gap: 15px;
   color: red;
@@ -238,7 +241,7 @@ nav ul li a a:hover {
   display: inline-block;
   align-items: center;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .button {
   text-decoration: none;
   height: 50px;
   font-size: bold;
@@ -251,18 +254,18 @@ nav ul li a a:hover {
   text-transform: capitalize;
   align-items: center;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .tatto-fixed {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .tatto-fixed {
   position: fixed;
   right: 0;
   bottom: 0;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina {
   background-color: black;
   border-style: double;
   color: white;
   text-align: center;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina .pie-pagina h3 {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina .pie-pagina h3 {
   color: white;
   text-transform: capitalize;
   text-align: center;
@@ -277,7 +280,7 @@ nav ul li a a:hover {
   display: inline-block;
   text-decoration: underline;
 }
-.pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
+.pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina .pie-pagina h3 .pie-pagina h3 .nuestrasredes a {
   justify-content: center;
   gap: 15px;
   text-decoration: underline;
