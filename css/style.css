@@ -84,6 +84,7 @@ header {
   font-size: 60px;
   font-family: "Nosifer";
   text-transform: uppercase;
+  justify-content: space-evenly;
 }
 
 .grids {
@@ -540,14 +541,13 @@ img {
   margin-bottom: 10px;
 }
 .container-card h1 {
-  font-weight: 600px;
-  font-size: 900px;
   font-family: "Nosifer", sans-serif;
   text-shadow: 2px 2px 2px red;
   color: black;
   align-items: center;
-  padding: 5px;
-  font-size: 40px;
+  margin-bottom: 8px;
+  padding: 0px;
+  text-align: center;
 }
 .container-card .container-card {
   width: 100%;
@@ -612,28 +612,56 @@ img {
   color: white;
 }
 
-.navbar-brand {
+.navbar {
+  color: black;
+  text-shadow: 1px 1px 1px red;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand {
   color: black;
   text-decoration: none;
   white-space: nowrap;
   font-family: "Nosifer";
   text-transform: uppercase;
+  font-size: 25px;
 }
-.navbar-brand .navbar-nav {
-  font-family: sans-serif;
-  font-size: 30px;
-  background-color: aqua;
+.navbar .navbar-brand .navbar-nav {
+  display: flex;
   color: black;
+  justify-content: space-evenly;
+  text-transform: uppercase;
 }
-.navbar-brand .navbar-nav .nav-link.active {
+.navbar .navbar-brand .navbar-nav .nav-link.active {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   text-shadow: 1px 1px 1px red;
+  text-transform: uppercase;
 }
-.navbar-brand .navbar-nav .nav-link.active .nav-link {
+.navbar .navbar-brand .navbar-nav .nav-link.active .nav-link {
   font-size: 30px;
-  color: red;
+  color: black;
+  text-shadow: 1px 1px 1px red;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar .navbar-brand .navbar-nav .nav-link.active .nav-link .navbar-expand-lg {
+  justify-content: end;
+}
+.navbar .navbar-brand .navbar-nav .nav-link.active .nav-link .navbar-expand-lg .navbar-nav {
+  justify-content: end;
+  display: flex;
+  padding: 30px;
+  color: black;
+}
+.navbar .navbar-brand .navbar-nav .nav-link.active .nav-link .navbar-expand-lg .navbar-nav .navbar-collapse {
+  flex-basis: 0px;
+  flex-grow: 0px;
+  color: black;
+  font-family: "nosifer";
+  font-size: 10px;
   text-transform: uppercase;
 }
 

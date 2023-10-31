@@ -4,16 +4,14 @@ color:$color-principal;
 margin-top:8px;
 margin-bottom:10px;
 h1{
-font-weight:600px;
-font-size:900px;
-font-family: 'Nosifer', sans-serif;
+
+font-family:'Nosifer', sans-serif;
 text-shadow:2px 2px 2px $bg-secundaria;
 color:$color-principal;
-
 align-items: center;
-padding:5px;
-font-size:40px;
-
+margin-bottom:8px;
+padding:0px;
+text-align: center;
 
 }
 .container-card{width: 100%;
