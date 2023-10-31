@@ -2,11 +2,21 @@
 color:$color-principal;
 text-decoration: none;
 white-space: nowrap;
-font-family: "Nosifer", sans-serif;
+font-family: "Nosifer";
 text-transform:uppercase;
 .navbar-nav{
     font-family:sans-serif;
     font-size:30px;
     background-color: aqua;
+    color:black;
+.nav-link.active{color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:30px;
+text-shadow:1px 1px 1px red;
+.nav-link{font-size:30px;
+    color:red;
+    text-transform: uppercase;
+}
+}
 
 }}
