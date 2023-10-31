@@ -24,7 +24,7 @@
 }
 
 header {
-  background-image: url("../assets/370089942_344215364810816_9119918932132459016_n.jpg");
+  background-image: url("../assets/363508638_1043703776948100_8031454638401276047_n.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1004,6 +1004,26 @@ img:hover {
     padding-bottom: 0.6rem;
     display: inline-block;
   }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .container-card {
+    text-align: center;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .container-card h1 {
+    font-size: 50px;
+    font-family: "Nosifer", sans-serif;
+    text-shadow: 2px 2px 2px red;
+    color: black;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 0px;
+    text-align: center;
+  }
+  nav ul li a .container-card h3 .container-card .goo-maps iframe h1 .pie-pagina .container-pie .footer-pie .footer-redes .pie-pagina h3 .pie-pagina h3 .nuestrasredes a .container-card .container-card {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (max-width: 768px) {
   .grids {
@@ -1255,6 +1275,25 @@ img:hover {
   }
   nav ul li a .goo-maps iframe h1 .contacto-grid .grupo-contactos p {
     text-transform: capitalize;
+  }
+  nav ul li a .goo-maps iframe h1 .contacto-grid .container-card {
+    text-align: center;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  nav ul li a .goo-maps iframe h1 .contacto-grid .container-card h1 {
+    font-family: "Nosifer", sans-serif;
+    text-shadow: 2px 2px 2px red;
+    color: black;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 0px;
+    text-align: center;
+  }
+  nav ul li a .goo-maps iframe h1 .contacto-grid .container-card .container-card {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 768px) {

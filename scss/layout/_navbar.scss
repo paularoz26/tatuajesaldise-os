@@ -1,5 +1,5 @@
-.navbar{color:black;
-    text-shadow:1px 1px 1px red;
+.navbar{color:$color-principal;
+    text-shadow:1px 1px 1px $bg-secundaria;
     font-size:30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
@@ -13,20 +13,21 @@ font-family: "Nosifer";
 text-transform:uppercase;
 font-size:25px;
 
+
 .navbar-nav{display: flex;
-    color:black;
+    color:$color-principal;
     justify-content: space-evenly;
     text-transform: uppercase;
 .nav-link.active{
-    color:black;
+    color:$color-principal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size:30px;
-text-shadow:1px 1px 1px red;
+text-shadow:1px 1px 1px $bg-secundaria;
 text-transform: uppercase;
 .nav-link{
     font-size:30px;
-    color:black;
-    text-shadow:1px 1px 1px red;
+    color:$color-principal;
+    text-shadow:1px 1px 1px $bg-secundaria;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -34,10 +35,10 @@ text-transform: uppercase;
         .navbar-nav{justify-content:end;
     display: flex;
     padding:30px;
-    color:black;
+    color:$color-principal;
     .navbar-collapse{flex-basis:0px;
     flex-grow:0px;
-    color:black;
+    color:$color-principal;
     font-family:"nosifer";
     font-size:10px;
     text-transform: uppercase;

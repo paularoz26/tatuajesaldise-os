@@ -208,6 +208,23 @@
                       
  .grupo-contactos h3{ text-transform:capitalize;}
 .grupo-contactos p{text-transform:capitalize;}
-                       
+.container-card{text-align: center;
+
+  color:$color-principal;
+  margin-top:8px;
+  margin-bottom:10px;
+  h1{
+  font-family:'Nosifer', sans-serif;
+  text-shadow:2px 2px 2px $bg-secundaria;
+  color:$color-principal;
+  align-items: center;
+  margin-bottom:8px;
+  padding:0px;
+  text-align: center;
+  
+  }
+  .container-card{width: 100%;
+      height:100%;}
+  }                       
 }} }
 }}}}}}
