@@ -1,14 +1,13 @@
 .nav{ul{ display: flex;
    gap:20px;
    justify-content:space-evenly;
-
-    list-style: none;
+   list-style: none;
   li{ list-style:none;
    }
   a{color:$color-principal;
     text-decoration: none;
   font-size:60px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:'Nosifer';
 text-transform:uppercase;
 }
   }}

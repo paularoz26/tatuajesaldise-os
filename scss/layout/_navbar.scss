@@ -1,11 +1,12 @@
-.navbar{
-.navbar-brand{.a{
-padding-top: var(--bs-navbar-brand-padding-y);
-padding-bottom: var(--bs-navbar-brand-padding-y);
-margin-right: var(--bs-navbar-brand-margin-end);
-font-size:40px;
-color:black;
+.navbar-brand{
+color:$color-principal;
 text-decoration: none;
 white-space: nowrap;
 font-family: "Nosifer", sans-serif;
-text-transform:uppercase;}}}
+text-transform:uppercase;
+.navbar-nav{
+    font-family:sans-serif;
+    font-size:30px;
+    background-color: aqua;
+
+}}

@@ -17,16 +17,6 @@
        background-color:$color-principal;
    
      a:hover{transform: scale(1.1);}
-     .buscador{position:absolute;
-        right:80px;
-      top:8px;
-    margin:0 auto;}
-      .buscar{margin-bottom:5px;
-        position: absolute;
-        text-transform: capitalize;
-        right:40px;
-      top:8px;
-    
       .grupo-contactos h3{margin:0;
         padding:0;}
         .grupo-contacto p{margin:0; padding:0;}
@@ -65,12 +55,7 @@
         .textarea{display:grid;
         gap:3px;}
         
-        .contact-form input{ border-radius: 7px;
-        border:none;
-        height:30px;
-        padding: 5px 10px;
-        }
-        
+      
         .contact-form textarea{ border-radius: 7px;
         border:none;
         height: 30px;
@@ -116,4 +101,4 @@
     
     }}
 
-  }}}
+  }}

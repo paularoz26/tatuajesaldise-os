@@ -13,8 +13,8 @@
   text-shadow:1px 1px 1px $bg-secundaria;
    }.contact-form input{ border-radius: 7px;
     border:none;
-    height:25px;
-    width: 420px;
+    height:none;
+    width:none;
     padding: 5px 10px;
     }.contact-form textarea{ border-radius: 7px;
       border:none;
@@ -30,10 +30,10 @@
           gap:3px;}
           .textarea{display:grid;
           gap:3px;}
-          .contact-form input{ border-radius: 7px;
+          .contact-form input{ border-radius:none;
           border:none;
-          height:30px;
-          padding: 5px 10px;
+          height:none;
+          padding:none;
           }.contac-label:active{color:$bg-secundaria;
             box-shadow: 4px 4px 4px $color-principal; }
             

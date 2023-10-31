@@ -21,7 +21,6 @@
   margin: 15px;
   border-radius: 20px;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 header {
@@ -70,28 +69,21 @@ header {
   border-radius: 20px;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
 }
-nav ul li {
+.nav ul li {
   list-style: none;
 }
-nav ul li:hover {
-  transform: scale(1.1);
-}
-nav ul li a {
+.nav ul a {
   color: black;
   text-decoration: none;
-  text-shadow: 1px 1px 1px red;
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  font-family: "Nosifer";
   text-transform: uppercase;
-}
-nav ul li a a:hover {
-  transform: scale(1.1);
 }
 
 .grids {
@@ -161,7 +153,6 @@ nav ul li a a:hover {
 .section-grids {
   display: grid;
   width: 100%;
-  height: 700px;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: black;
@@ -174,18 +165,19 @@ nav ul li a a:hover {
   align-items: center;
   row-gap: 20px;
   column-gap: 20px;
+  padding: 40px;
 }
 
-.section1 {
+.section2 {
   background-color: none;
-  grid-area: section1;
 }
-.section1 .section1 img {
+.section2 .section2 img {
+  padding: 40px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.section1 .section1 img:hover {
+.section2 .section2 img:hover {
   transform: scale(1.1);
 }
 
@@ -205,15 +197,14 @@ nav ul li a a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   gap: 20px;
   text-transform: capitalize;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes {
   align-items: center;
+  padding: 30px;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales {
-  padding: 15px;
   gap: 20px;
 }
 .pie-pagina .container-pie .footer-pie .footer-redes .redes-sociales .pie-pagina h3 {
@@ -453,13 +444,6 @@ img {
   display: grid;
   gap: 3px;
 }
-.contacto-grid .contact-form input {
-  border-radius: 7px;
-  border: none;
-  height: 30px;
-  padding: 5px 10px;
-  margin: 10px;
-}
 .contacto-grid .contact-form input:hover {
   border-color: rgb(222, 69, 9);
 }
@@ -628,6 +612,19 @@ img {
   color: white;
 }
 
+.navbar-brand {
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Nosifer", sans-serif;
+  text-transform: uppercase;
+}
+.navbar-brand .navbar-nav {
+  font-family: sans-serif;
+  font-size: 30px;
+  background-color: aqua;
+}
+
 .container {
   border-radius: 20px;
   border-style: double;
@@ -675,8 +672,8 @@ img {
 .container-card .contact-form input {
   border-radius: 7px;
   border: none;
-  height: 25px;
-  width: 420px;
+  height: none;
+  width: none;
   padding: 5px 10px;
 }
 .container-card .contact-form textarea {
@@ -706,10 +703,10 @@ img {
   gap: 3px;
 }
 .container-card .contact-form input {
-  border-radius: 7px;
+  border-radius: none;
   border: none;
-  height: 30px;
-  padding: 5px 10px;
+  height: none;
+  padding: none;
 }
 .container-card .contac-label:active {
   color: red;
@@ -844,18 +841,6 @@ img:hover {
   }
   nav ul li a a:hover {
     transform: scale(1.1);
-  }
-  nav ul li a .buscador {
-    position: absolute;
-    right: 80px;
-    top: 8px;
-  }
-  nav ul li a .buscar {
-    margin-bottom: 5px;
-    position: absolute;
-    text-transform: capitalize;
-    right: 80px;
-    top: 8px;
   }
   nav ul li a .container-card h3 {
     text-align: center;
@@ -1013,18 +998,6 @@ img:hover {
   }
   nav ul li a a:hover {
     transform: scale(1.1);
-  }
-  nav ul li a .buscador {
-    position: absolute;
-    right: 80px;
-    top: 8px;
-  }
-  nav ul li a .buscar {
-    margin-bottom: 5px;
-    position: absolute;
-    text-transform: capitalize;
-    right: 80px;
-    top: 8px;
   }
   nav ul li a .goo-maps {
     padding: 30px;
@@ -1278,18 +1251,6 @@ img:hover {
   nav ul li a a:hover {
     transform: scale(1.1);
   }
-  nav ul li a .buscador {
-    position: absolute;
-    right: 80px;
-    top: 8px;
-  }
-  nav ul li a .buscar {
-    margin-bottom: 5px;
-    position: absolute;
-    text-transform: capitalize;
-    right: 40px;
-    top: 8px;
-  }
   nav ul li a .goo-maps {
     padding: 30px;
     justify-content: center;
@@ -1371,12 +1332,6 @@ img:hover {
   nav ul li a .goo-maps h1 .textarea {
     display: grid;
     gap: 3px;
-  }
-  nav ul li a .goo-maps h1 .contact-form input {
-    border-radius: 7px;
-    border: none;
-    height: 30px;
-    padding: 5px 10px;
   }
   nav ul li a .goo-maps h1 .contact-form textarea {
     border-radius: 7px;
@@ -1496,28 +1451,15 @@ img:hover {
   nav ul li a a:hover {
     transform: scale(1.1);
   }
-  nav ul li a .buscador {
-    position: absolute;
-    right: 80px;
-    top: 8px;
-    margin: 0 auto;
-  }
-  nav ul li a .buscar {
-    margin-bottom: 5px;
-    position: absolute;
-    text-transform: capitalize;
-    right: 40px;
-    top: 8px;
-  }
-  nav ul li a .buscar .grupo-contactos h3 {
+  nav ul li a .grupo-contactos h3 {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .buscar .grupo-contacto p {
+  nav ul li a .grupo-contacto p {
     margin: 0;
     padding: 0;
   }
-  nav ul li a .buscar .grupo-contactos h2 {
+  nav ul li a .grupo-contactos h2 {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -1525,65 +1467,59 @@ img:hover {
     font-weight: normal;
     color: black;
   }
-  nav ul li a .buscar .grupo-contactos h3 {
+  nav ul li a .grupo-contactos h3 {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .buscar .grupos-contactos p {
+  nav ul li a .grupos-contactos p {
     display: grid;
     gap: 20px;
   }
-  nav ul li a .buscar .contac-label {
+  nav ul li a .contac-label {
     text-transform: uppercase;
     font-weight: 500;
     color: black;
   }
-  nav ul li a .buscar .grupo-contactos label:hover {
+  nav ul li a .grupo-contactos label:hover {
     color: red;
     box-shadow: 4px 4px 4px black;
     text-decoration: underline;
   }
-  nav ul li a .buscar .grupo-contactos p:hover {
+  nav ul li a .grupo-contactos p:hover {
     color: black;
   }
-  nav ul li a .buscar .contac-grupo {
+  nav ul li a .contac-grupo {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .buscar .contac-grupo label {
+  nav ul li a .contac-grupo label {
     text-transform: capitalize;
   }
-  nav ul li a .buscar .input {
+  nav ul li a .input {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .buscar .textarea {
+  nav ul li a .textarea {
     display: grid;
     gap: 3px;
   }
-  nav ul li a .buscar .contact-form input {
+  nav ul li a .contact-form textarea {
     border-radius: 7px;
     border: none;
     height: 30px;
     padding: 5px 10px;
   }
-  nav ul li a .buscar .contact-form textarea {
-    border-radius: 7px;
-    border: none;
-    height: 30px;
-    padding: 5px 10px;
-  }
-  nav ul li a .buscar .contact-form textarea {
+  nav ul li a .contact-form textarea {
     height: auto;
     resize: vertical;
   }
-  nav ul li a .buscar .grupo-contactos h3 {
+  nav ul li a .grupo-contactos h3 {
     text-transform: capitalize;
   }
-  nav ul li a .buscar .grupo-contactos p {
+  nav ul li a .grupo-contactos p {
     text-transform: capitalize;
   }
-  nav ul li a .buscar .grupo-contactos h4 {
+  nav ul li a .grupo-contactos h4 {
     text-transform: capitalize;
     border-style: groove;
     color: rgb(222, 69, 9);
@@ -1593,14 +1529,14 @@ img:hover {
     background-color: black;
     font-size: 20px;
   }
-  nav ul li a .buscar .contac-grupo label:hover {
+  nav ul li a .contac-grupo label:hover {
     color: black;
   }
-  nav ul li a .buscar .contac-grupo input:hover {
+  nav ul li a .contac-grupo input:hover {
     border-color: rgb(222, 69, 9);
     border-style: double;
   }
-  nav ul li a .buscar .contac-grupo button {
+  nav ul li a .contac-grupo button {
     width: 100%;
     height: 50px;
     font-size: bold;
@@ -1612,17 +1548,17 @@ img:hover {
     cursor: pointer;
     text-transform: capitalize;
   }
-  nav ul li a .buscar .grupo-contactos h3 {
+  nav ul li a .grupo-contactos h3 {
     color: black;
   }
-  nav ul li a .buscar .contac-detalle h3 {
+  nav ul li a .contac-detalle h3 {
     color: black;
   }
-  nav ul li a .buscar .grupo-contactos h3:hover {
+  nav ul li a .grupo-contactos h3:hover {
     color: rgb(222, 69, 9);
     background-color: white;
   }
-  nav ul li a .buscar .contac-grupo button:hover {
+  nav ul li a .contac-grupo button:hover {
     box-shadow: 4px 4px 4px white;
   }
 }
