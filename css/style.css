@@ -429,10 +429,17 @@ img {
   color: black;
 }
 .contacto-grid .contac-grupo {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3px;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+.contacto-grid .form-control {
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  border-style: double;
+  border-color: red;
 }
 .contacto-grid .contac-grupo label {
   text-transform: capitalize;
@@ -459,6 +466,19 @@ img {
   height: auto;
   resize: vertical;
 }
+.contacto-grid .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-style: double;
+  border-color: red;
+  background-color: rgb(145, 244, 244);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 30px;
+}
 .contacto-grid .grupo-contactos h3 {
   text-transform: capitalize;
   margin-top: 30px;
@@ -468,16 +488,10 @@ img {
   text-transform: capitalize;
 }
 .contacto-grid .contacto-grupo {
-  background-color: rgb(214, 204, 204);
-  background-size: 20px;
-  display: grid;
-  min-height: 80px;
-  background-position: 0px 0px 10px 10px;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
 }
 .contacto-grid .contac-grupo {
   text-transform: capitalize;
@@ -486,6 +500,8 @@ img {
 }
 .contacto-grid .contac-grupo button {
   text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 50px;
   font-size: bold;
@@ -541,6 +557,7 @@ img {
   margin-bottom: 10px;
 }
 .container-card h1 {
+  font-size: 50px;
   font-family: "Nosifer", sans-serif;
   text-shadow: 2px 2px 2px red;
   color: black;
@@ -709,19 +726,14 @@ img {
   font-family: creepster;
   text-shadow: 1px 1px 1px red;
 }
-.container-card .contact-form input {
-  border-radius: 7px;
-  border: none;
-  height: none;
-  width: none;
-  padding: 5px 10px;
-}
 .container-card .contact-form textarea {
   border-radius: 7px;
   border: none;
   height: 90px;
   padding: 5px 10px;
-  width: 420px;
+  width: 200px;
+  border-style: double;
+  border-color: red;
 }
 .container-card .contact-form textarea {
   height: auto;
@@ -742,22 +754,19 @@ img {
   display: grid;
   gap: 3px;
 }
-.container-card .contact-form input {
-  border-radius: none;
-  border: none;
-  height: none;
-  padding: none;
-}
-.container-card .contac-label:active {
+
+.contac-label:active {
   color: red;
   box-shadow: 4px 4px 4px black;
 }
-.container-card .grupo-contactos label:hover {
+
+.grupo-contactos label:hover {
   color: red;
   box-shadow: 4px 4px 4px black;
   text-decoration: underline;
 }
-.container-card .grupo-contactos p:hover {
+
+.grupo-contactos p:hover {
   color: black;
 }
 

@@ -11,16 +11,14 @@
   text-align: center;
   font-family:creepster;
   text-shadow:1px 1px 1px $bg-secundaria;
-   }.contact-form input{ border-radius: 7px;
-    border:none;
-    height:none;
-    width:none;
-    padding: 5px 10px;
-    }.contact-form textarea{ border-radius: 7px;
+   }
+    .contact-form textarea{ border-radius: 7px;
       border:none;
       height:90px;
       padding:5px 10px;
-    width:420px;}
+    width:200px;
+  border-style: double;
+border-color:red;}
       .contact-form textarea{height:auto;
         resize:vertical;
         } .contac-grupo{display:grid;
@@ -30,10 +28,6 @@
           gap:3px;}
           .textarea{display:grid;
           gap:3px;}
-          .contact-form input{ border-radius:none;
-          border:none;
-          height:none;
-          padding:none;
           }.contac-label:active{color:$bg-secundaria;
             box-shadow: 4px 4px 4px $color-principal; }
             
@@ -43,7 +37,6 @@
             }
             .grupo-contactos p:hover{color:$color-principal;}
             
-  }
   .contac-grupo button{
   height:50px;
   width:300px;
