@@ -18,7 +18,12 @@ column-gap:20px;
 padding:40px;
 }
    
-   .section2{background-color:none;  
+   .section2{background-color:none; 
+      display: flex;
+      gap:30px;
+      justify-content:center;
+      justify-content:space-evenly;
+      flex-wrap: wrap; 
 
    .section2 img{padding:40px;
     width:100%;
